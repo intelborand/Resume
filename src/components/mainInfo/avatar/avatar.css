@@ -1,0 +1,6 @@
+.face__img {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #b4b4b4;
+    padding: 7px;
+    border-radius: 2px;
+}

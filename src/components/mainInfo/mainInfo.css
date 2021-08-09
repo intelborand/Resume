@@ -1,0 +1,9 @@
+.mainInfo {
+    width: 100%;
+    padding: 150px 0 0;
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+

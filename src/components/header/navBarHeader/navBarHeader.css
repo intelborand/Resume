@@ -1,0 +1,27 @@
+.header-list {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    color: #fff;
+    list-style-type: none;
+}
+.header-list li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.header-list li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+    opacity: 0.95;
+    transition: opacity .1s linear;
+}
+
+.header-list li a:hover {
+    opacity: 1;
+}

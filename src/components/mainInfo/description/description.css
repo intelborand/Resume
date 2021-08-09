@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.discribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 400px;
+    text-align: center;
+    padding-right: 150px;
+
+    font-weight: 400;
+}
+
+.discribe__name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+}
+
+
+.discribe__work {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 0 30px 0;
+}
+
+.font6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+}
+
+.paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+}
+
+.paragraph:last-child {
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Goldman', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 5px 1px #666666;
+    box-shadow: 0px 5px 1px #666666;
+    margin: 20px 0 0 0;
+}
+
+.btn:hover {
+     background-color: #191919;
+}
+
+.btn:active {
+    position: relative;
+    top: 3px;
+    -webkit-box-shadow: 0px 2px 1px #666666;
+    box-shadow: 0px 2px 1px #666666;
+}
