@@ -1,9 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './nameHeader.css';
 
 const NameHeader = () => {
 
-    return <h1>Andrii Bordakov</h1>
+    return( 
+        <ul className="title">
+            <Link to='/'>Andrii Bordakov</Link>
+        </ul>
+
+    )
 }
 
 

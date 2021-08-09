@@ -1,5 +1,5 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './navBarHeader.css';
 
 
@@ -9,13 +9,13 @@ const NavBarHeader = () => {
     <>
         <ul className="header-list">
             <li>
-                <a href='/education'>Education</a>
+                <Link to='/education'>Education</Link>
             </li>
             <li>
-                <a href='/experience/'>Experience</a>
+                <Link to='/experience/'>Experience</Link>
             </li>
             <li>
-                <a href='/skills/'>Skills</a>   
+                <Link to='/skills/'>Skills</Link>   
             </li>
         </ul>
     </>

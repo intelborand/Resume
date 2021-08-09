@@ -1,7 +1,10 @@
-h1 {
+.title a {
     font-family: 'Goldman', cursive;
     font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 700;
     letter-spacing: 4px;
+    color: #000;
+
 }
