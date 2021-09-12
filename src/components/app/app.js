@@ -12,7 +12,9 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 
+
 import './app.css';
+
 
 
 
@@ -25,12 +27,16 @@ export default class App extends Component {
             <Router>
             
                 <Header/>
-                <MainInfo />
-                <Footer/>
+                <Route path='/' exact component={MainInfo} />
 
+                
+
+                
                 <Route path='/education' component={EducationPage} />
                 <Route path='/experience' component={ExperiencePage} />
                 <Route path='/skills' component={SkillPage} />
+                
+                <Footer/>
                 
             </Router>
         )
