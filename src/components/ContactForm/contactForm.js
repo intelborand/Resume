@@ -11,34 +11,30 @@ export default class ContactUs extends Component {
 
 render() {
 
+  const {onCloseModal} = this.props;
+  // const messages = {
+  //   loading: '',
+  //   success: 'Email had send. Thank you!',
+  //   error: 'Oops.. What`s going wrong. Please try again.'
+  // }
+
   this.sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_srbrpt1', 'template_9im04ip', e.target, 'user_uJMErxuoSduCzscTeewZV')
       .then((result) => {
           console.log(result.text);
+          
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset();
+      onCloseModal();
   }
 
-  const {onCloseModal} = this.props;
+  
 
   return (
-    // <form className="contact-form" onSubmit={sendEmail}>
-    //     <label>Subject</label>
-    //   <input type="text" name="subject" />
-    //     <label>Name</label>
-    //   <input type="text" name="user_name" />
-    //      <label>Email</label>
-    //   <input type="email" name="email" />
-    //      <label>Message</label>
-    //         <textarea name="message" />
-    //   <input type="submit" value="Send" />
-    // </form>
-    
-
     <div className="modal container">
       <div className="modal__dialog">
         <div className="modal__content">

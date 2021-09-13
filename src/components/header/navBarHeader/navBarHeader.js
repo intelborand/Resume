@@ -15,7 +15,10 @@ const NavBarHeader = () => {
                 <Link to='/experience/'>Experience</Link>
             </li>
             <li>
-                <Link to='/skills/'>Skills</Link>   
+                <Link to='/devskills/'>Dev Skills</Link>   
+            </li>
+            <li>
+                <Link to='/lifeskills/'>Life Skills</Link>   
             </li>
         </ul>
     </>

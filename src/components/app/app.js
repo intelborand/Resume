@@ -7,6 +7,7 @@ import Header from '../header/header';
 import MainInfo from '../mainInfo/mainInfo';
 import ExperiencePage from '../experiencePage/experience';
 import SkillPage from '../skillPage/skill';
+import LifeSkill from '../lifeSkillPage/lifeSkill';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
@@ -34,7 +35,8 @@ export default class App extends Component {
                 
                 <Route path='/education' component={EducationPage} />
                 <Route path='/experience' component={ExperiencePage} />
-                <Route path='/skills' component={SkillPage} />
+                <Route path='/devskills' component={SkillPage} />
+                <Route path='/lifeskills' component={LifeSkill} />
                 
                 <Footer/>
                 
