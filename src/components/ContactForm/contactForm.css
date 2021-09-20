@@ -104,3 +104,8 @@ textarea {
     font-size: 15px;
     font-weight: 600;
 }
+
+.status {
+    display: block;
+    color: red;
+  }

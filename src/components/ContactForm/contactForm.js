@@ -12,24 +12,29 @@ export default class ContactUs extends Component {
 render() {
 
   const {onCloseModal} = this.props;
-  // const messages = {
-  //   loading: '',
-  //   success: 'Email had send. Thank you!',
-  //   error: 'Oops.. What`s going wrong. Please try again.'
-  // }
+  const messages = {
+    loading: '',
+    success: 'Email had send. Thank you!',
+    error: 'Oops.. What`s going wrong. Please try again.'
+  }
 
-  this.sendEmail = (e) => {
+  this.sendEmail = async (e) => {
     e.preventDefault();
+
+    let statusMaessage = document.createElement('div');
+    statusMaessage.classList.add('status');
 
     emailjs.sendForm('service_srbrpt1', 'template_9im04ip', e.target, 'user_uJMErxuoSduCzscTeewZV')
       .then((result) => {
           console.log(result.text);
-          
+          statusMaessage.textContent = messages.success;
       }, (error) => {
           console.log(error.text);
+          statusMaessage.textContent = messages.error;
       });
       e.target.reset();
-      onCloseModal();
+      setTimeout(onCloseModal, 5000);
+      
   }
 
   

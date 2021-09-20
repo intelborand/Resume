@@ -18,7 +18,7 @@ const NavBarHeader = () => {
                 <Link to='/devskills/'>Dev Skills</Link>   
             </li>
             <li>
-                <Link to='/lifeskills/'>Life Skills</Link>   
+                <Link to='/lifeskills/'>More</Link>   
             </li>
         </ul>
     </>

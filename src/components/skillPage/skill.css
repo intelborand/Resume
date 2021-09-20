@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .skills {
     width: 100%;
 }
@@ -20,20 +25,71 @@
 
 
 .skills_items {
-    margin: 50px 250px 50px;
+    position: relative;
+    max-width: 1200px;
+    height: 600px;
+    margin: 50px auto 50px;
+
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+  
 
 
 }
 
 
 .skills_item {
-  width: 100%;
+
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
+}
 
+.icon1 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+.icon2 {
+    position: absolute;
+    top: 40px;
+    left: 900px; 
+}
+
+.icon3{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.icon4{
+    position: absolute;
+    top: 244px;
+    left: 1100px;
+}
+.icon5{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+.icon6{
+    position: absolute;
+    top: 400px;
+    left: 450px;   
+}
+.icon7{
+    position: absolute;
+    top: 240px;
+    left: 750px;   
+}
+.icon8{
+    position: absolute;
+    top: 400px;
+    left: 80px;   
+}
+.icon9{
+    position: absolute;
+    top: 420px;
+    left: 1000px;  
 }
