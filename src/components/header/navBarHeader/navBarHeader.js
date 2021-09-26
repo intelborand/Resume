@@ -9,7 +9,9 @@ const NavBarHeader = () => {
     <>
         <ul className="header-list">
             <li>
-                <Link to='/education'>Education</Link>
+                <Link to='/education'>
+                    Education
+                    </Link>
             </li>
             <li>
                 <Link to='/experience/'>Experience</Link>

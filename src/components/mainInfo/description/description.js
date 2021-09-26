@@ -25,10 +25,14 @@ export default class Description extends Component {
         })
     }
 
+    
+
 
     render() {
 
         const modalWindow = this.state.showModalWindow ? <ContactUs onCloseModal={this.onCloseModal}/> : null;
+
+
 
         
         return(

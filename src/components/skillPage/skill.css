@@ -54,7 +54,7 @@
 .icon2 {
     position: absolute;
     top: 40px;
-    left: 900px; 
+    left: 750px; 
 }
 
 .icon3{
@@ -92,4 +92,15 @@
     position: absolute;
     top: 420px;
     left: 1000px;  
+}
+.icon10{
+    position: absolute;
+    top: 40px;
+    left: 1000px;  
+}
+
+.icon11{
+    position: absolute;
+    top: 220px;
+    left: 0;  
 }

@@ -9,6 +9,8 @@ import reduxIcon from '../icons/redux.svg';
 import sassIcon from '../icons/sass.svg';
 import psIcon from '../icons/photoshop.svg';
 import figmaIcon from '../icons/figma.svg';
+import slack from '../icons/slack.svg';
+import bootstrap from '../icons/bootstrap.svg';
 
 
 
@@ -31,6 +33,9 @@ const SkillPage = () => {
                 <div className="skills_item icon7"><img src={sassIcon} width="120" alt='sass'></img></div>
                 <div className="skills_item icon8"><img src={psIcon} width="120" alt='ps'></img></div>
                 <div className="skills_item icon9"><img src={figmaIcon} width="120" alt='figma'></img></div>
+                <div className="skills_item icon10"><img src={slack} width="120" alt='slack'></img></div>
+                <div className="skills_item icon11"><img src={bootstrap} width="120" alt='bootstrap'></img></div>
+                
             </div>
         </div>
     )

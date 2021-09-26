@@ -33,24 +33,25 @@ render() {
           statusMaessage.textContent = messages.error;
       });
       e.target.reset();
-      setTimeout(onCloseModal, 5000);
+      setTimeout(onCloseModal, 3000);
       
   }
 
   
 
   return (
-    <div className="modal container">
+    <div className="modal container-form">
       <div className="modal__dialog">
         <div className="modal__content">
             <form className="contact-form" onSubmit={this.sendEmail}>
                 <div onClick={onCloseModal} className="modal__close">&times;</div>
                 <div className="modal__title">Send message</div>
-                    <input placeholder=" Subject" type="text" name="subject" /><br/>
-                    <input placeholder=" Name" type="text" name="user_name" /><br/>
-                    <input placeholder=" Email" type="email" name="email" /><br/>
-                    <textarea placeholder=" Message" name="message" /><br/>
+                    <input placeholder=" Subject" type="text" name="subject" required/><br/>
+                    <input placeholder=" Name" type="text" name="user_name" required/><br/>
+                    <input placeholder=" Email" type="email" name="email" required/><br/>
+                    <textarea placeholder=" Message" name="message" required/><br/>
                     <button type="submit" value="Send" className="btn">Send</button>
+                    {this.statusMaessage}
               </form>
           </div>
       </div>
