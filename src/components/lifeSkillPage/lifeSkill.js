@@ -43,12 +43,15 @@ function LifeSkill () {
               <div
                 className={toggleState === 1 ? "content  active-content" : "content"}
               >
-                <h2>Content 1</h2>
+                <h2>Languages</h2>
                 <hr />
                 <div className="content-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-                  praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-                  vel voluptatum?
+                  <ul>
+                    <li>Polish</li>
+                    <li>English</li>
+                    <li>Ukrainian</li>
+                    <li>Russian</li>
+                  </ul>
                 </div>
               </div>
       

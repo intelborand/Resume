@@ -86,6 +86,13 @@
     font-family: 'Goldman', cursive;
     font-weight: 400;
   }
+
+  .content-text ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
   .active-content {
     display: block;
   }
