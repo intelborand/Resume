@@ -108,4 +108,25 @@ textarea {
 .status {
     display: block;
     color: red;
-  }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .modal__content {
+        width: 300px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .modal__content {
+        width: 260px;
+    }
+    .btn-form {
+        width: 200px;
+    }
+
+}

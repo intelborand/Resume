@@ -6,9 +6,12 @@
     list-style-type: none;
 }
 .header-list li {
-    margin-right: 20px;
+    margin: 0;
+    padding: 20px;
     font-size: 18px;
+
 }
+
 
 .header-list li a {
     font-family: 'Raleway', sans-serif;
@@ -17,11 +20,50 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
-    margin-left: 40px;
+    margin: 0;
     opacity: 0.95;
     transition: opacity .1s linear;
 }
 
 .header-list li a:hover {
     opacity: 1;
+    border-bottom: 1px solid #000;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+    .header-list li a {
+  
+     font-size: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .header-list{
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+
+    }   
+
+    .header-list li {
+        margin: 0;
+        padding: 2px 4px 4px 2px;
+        font-size: 10px;
+    
+    }
+
+}
+

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import faceLogo from './face.jpg';
+import faceLogo from './face.png';
 import './avatar.css';
 
 

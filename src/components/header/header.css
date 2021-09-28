@@ -1,5 +1,5 @@
 .header {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     margin: 25px 0;
@@ -10,7 +10,48 @@
 
 .container__header {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
+
     margin: 0 auto;
     height: 100px;
+    padding: 10px 0 0 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .header{
+        width: 100%;
+        max-width: 1000px;
+        height: 80px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .header{
+        width: 100%;
+        max-width: 990px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .header{
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .header{
+        width: 100%;
+        max-width: 375px;
+        height: 80px;
+        
+
+    }
 }

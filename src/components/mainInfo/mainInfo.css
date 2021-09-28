@@ -7,3 +7,28 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 1200px) {
+    .mainInfo{
+        padding: 50px 0 0 10px;
+        max-width: 1000px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .mainInfo{
+        padding: 50px 0 0 10px;
+
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .mainInfo{
+        padding: 25px 0 0 5px;
+        max-width: 375px;
+
+    }
+}

@@ -4,3 +4,19 @@
     padding: 7px;
     border-radius: 2px;
 }
+
+@media only screen and (max-width: 650px) {
+    .face__img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .face__img {
+        width: 150px;
+        margin-left: 15px;
+
+
+    }
+}
+

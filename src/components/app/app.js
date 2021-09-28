@@ -14,6 +14,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 
 
+
 import './app.css';
 
 
@@ -37,6 +38,8 @@ export default class App extends Component {
                 <Route path='/experience' component={ExperiencePage} />
                 <Route path='/devskills' component={SkillPage} />
                 <Route path='/lifeskills' component={LifeSkill} />
+
+ 
                 
                 <Footer/>
                 

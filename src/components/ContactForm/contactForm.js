@@ -50,7 +50,7 @@ render() {
                     <input placeholder=" Name" type="text" name="user_name" required/><br/>
                     <input placeholder=" Email" type="email" name="email" required/><br/>
                     <textarea placeholder=" Message" name="message" required/><br/>
-                    <button type="submit" value="Send" className="btn">Send</button>
+                    <button type="submit" value="Send" className="btn btn-form">Send</button>
                     {this.statusMaessage}
               </form>
           </div>
