@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 
+
 import './lifeSkill.css';
 
 function LifeSkill () {
@@ -29,7 +30,7 @@ function LifeSkill () {
                 className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
                 onClick={() => toggleTab(2)}
               >
-                Certificates
+                Documents
               </button>
               <button
                 className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
@@ -58,26 +59,25 @@ function LifeSkill () {
               <div
                 className={toggleState === 2 ? "content  active-content" : "content"}
               >
-                <h2>Content 2</h2>
+                <h2>Documents to download</h2>
                 <hr />
-                <p className="content-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-                  voluptatum qui adipisci.
-                </p>
+                <div className="content-text">
+                  <ul className="links">
+                    <li><a target='blank' href='https://github.com/intelborand/Resume/blob/main/Andrii%20Bordakov_CV_ENG.pdf'>CV ENG</a></li>
+                    <li><a target='blank' href='https://github.com/intelborand/Resume/blob/main/Andrii%20Bordakov_CV_PL.pdf'>CV PL</a></li>
+                    <li><a target='blank' href='https://github.com/intelborand/Resume/blob/main/Udemi%20certificate%20%5BENG%5D.pdf'>ReactJS Certificate</a></li>
+                  </ul>
+                </div>
               </div>
       
               <div
                 className={toggleState === 3 ? "content  active-content" : "content"}
               >
-                <h2>Content 3</h2>
+                <h2>Interests</h2>
                 <hr />
                 <p className="content-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-                  nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-                  Accusamus in quia odit aspernatur provident et ad vel distinctio
-                  recusandae totam quidem repudiandae omnis veritatis nostrum
-                  laboriosam architecto optio rem, dignissimos voluptatum beatae
-                  aperiam voluptatem atque. Beatae rerum dolores sunt.
+                  10 years experience in Kickboxing, 6 years in Capoeira, candidate for Master of Sports in acrobatics.<br/> 
+                  Playing acoustic and electric guitar.
                 </p>
               </div>
             </div>
